@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+//Function tanpa parameter tetapi dengan nilai kembalian
+void cetakInfo ()
+{
+		cout << "Nama: Muhammad ilham" <<endl;
+		cout << "NIM: ETE10190105" <<endl;
+		cout << "Prodi: Teknik Elektromedis" <<endl;
+		cout << "Mata Kuliah: Bahasa Pemrograman" <<endl;
+		cout << endl;
+		cout << "Tugas tentang Function tanpa parameter tetapi dengan nilai kembalian" <<endl;
+}
+
+int function ()
+{
+		int nilai1 = 25, nilai2 = 29;
+		return nilai1  + nilai2;
+}
+
+int main ()
+{
+		cetakInfo ();
+		cout << "Berikut adalah hasil Pertambahan dari (25,29):" <<endl<<function ();
+}
