@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+//Function dengan tipe double dan nilai kembalian double
+void function ()
+{
+	cout << "Nama : Muhammad Ilham" <<endl;
+	cout << "NIM : ETE10190105" <<endl;
+	cout << "Prodi : Teknik Elektdomedis" <<endl;
+	cout << "Mata Kuliah : Bahasa Pemugraman" <<endl;
+	cout <<endl;
+	cout << "Tugas tentang Function dengan tipe double dan nilai kembalian double" <<endl;
+}
+
+double pembagian (double nilai1, double nilai2)
+{
+	return nilai1 / nilai2;
+}
+
+int main ()
+{
+	function ();
+	cout << "Hasil pembagian dari (20,5):" << endl<<pembagian (20,5);
+	return 0;
+}
