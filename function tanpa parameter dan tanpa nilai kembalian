@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+//membuat function tanpa parameter dan tanpa nilai kembalian
+void function ()
+{
+	cout << "Nama : Muhammad ilham" <<endl;
+	cout << "NIM : ETE10190105" <<endl;
+	cout << "Prodi : Teknik Elektromedis" <<endl;
+	cout << "Mata Kuliah : Basaha Pemugraman" <<endl;
+	cout << endl;
+	cout << "Tugas tentang Function ini tanpa parameter dan tanpa nilai kembalian" <<endl;
+}
+
+int main () 
+{
+	function ();
+}
